@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include rtcpro *.css
+recursive-include rtcpro *.csv
+recursive-include rtcpro *.html
+recursive-include rtcpro *.ico
+recursive-include rtcpro *.js
+recursive-include rtcpro *.json
+recursive-include rtcpro *.md
+recursive-include rtcpro *.png
+recursive-include rtcpro *.py
+recursive-include rtcpro *.svg
+recursive-include rtcpro *.txt
+recursive-exclude rtcpro *.pyc
