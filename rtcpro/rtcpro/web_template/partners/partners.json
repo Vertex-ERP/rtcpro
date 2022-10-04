@@ -1,0 +1,42 @@
+{
+ "__islocal": true,
+ "__unsaved": 1,
+ "creation": "2022-10-03 11:24:22.230271",
+ "docstatus": 0,
+ "doctype": "Web Template",
+ "fields": [
+  {
+   "__islocal": 1,
+   "__unsaved": 1,
+   "fieldname": "title",
+   "fieldtype": "Data",
+   "label": "Title",
+   "reqd": 0
+  },
+  {
+   "__islocal": 1,
+   "__unsaved": 1,
+   "fieldname": "partners",
+   "fieldtype": "Table Break",
+   "label": "Partners",
+   "reqd": 0
+  },
+  {
+   "__islocal": 1,
+   "__unsaved": 1,
+   "fieldname": "logo",
+   "fieldtype": "Attach Image",
+   "label": "Logo",
+   "reqd": 0
+  }
+ ],
+ "idx": 0,
+ "modified": "2022-10-03 11:24:22.230271",
+ "modified_by": "Administrator",
+ "module": "Rtcpro",
+ "name": "Partners",
+ "owner": "Administrator",
+ "standard": 1,
+ "template": "",
+ "type": "Section"
+}

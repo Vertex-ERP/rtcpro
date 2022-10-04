@@ -1,0 +1,238 @@
+{
+ "actions": [],
+ "allow_events_in_timeline": 1,
+ "allow_guest_to_view": 1,
+ "allow_import": 1,
+ "autoname": "naming_series:",
+ "creation": "2022-10-02 11:13:08.048363",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "naming_series",
+  "title",
+  "column_break_3",
+  "preview_url",
+  "category",
+  "section_break_6",
+  "price",
+  "discount",
+  "column_break_5",
+  "lectures",
+  "duration",
+  "column_break_12",
+  "deadline",
+  "skill_level",
+  "section_break_15",
+  "route",
+  "is_published",
+  "cover",
+  "tab_break_19",
+  "content",
+  "mult",
+  "instructor_tab",
+  "instructor",
+  "short_name",
+  "full_name",
+  "speciality",
+  "column_break_26",
+  "bio",
+  "avatar"
+ ],
+ "fields": [
+  {
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "label": "Naming Series",
+   "options": "ED-CO-.YYYY.-"
+  },
+  {
+   "fieldname": "title",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Title",
+   "reqd": 1
+  },
+  {
+   "fieldname": "preview_url",
+   "fieldtype": "Data",
+   "label": " Preview Url "
+  },
+  {
+   "fieldname": "category",
+   "fieldtype": "Link",
+   "label": "Category",
+   "options": "Course Category"
+  },
+  {
+   "fieldname": "cover",
+   "fieldtype": "Attach Image",
+   "label": "Cover"
+  },
+  {
+   "fieldname": "price",
+   "fieldtype": "Currency",
+   "label": "Price"
+  },
+  {
+   "fieldname": "discount",
+   "fieldtype": "Percent",
+   "label": "Discount"
+  },
+  {
+   "fieldname": "lectures",
+   "fieldtype": "Int",
+   "label": "Lectures"
+  },
+  {
+   "fieldname": "duration",
+   "fieldtype": "Duration",
+   "hide_seconds": 1,
+   "label": "Duration"
+  },
+  {
+   "fieldname": "deadline",
+   "fieldtype": "Date",
+   "label": "Deadline"
+  },
+  {
+   "fieldname": "skill_level",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Skill Level",
+   "options": "Beginner\nIntermediate\nAdvance",
+   "reqd": 1
+  },
+  {
+   "fieldname": "content",
+   "fieldtype": "Text Editor",
+   "label": "Content"
+  },
+  {
+   "fieldname": "route",
+   "fieldtype": "Data",
+   "label": "Route",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "is_published",
+   "fieldtype": "Check",
+   "label": "Is Published"
+  },
+  {
+   "fieldname": "column_break_3",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_5",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_12",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_6",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_15",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "tab_break_19",
+   "fieldtype": "Tab Break",
+   "label": "Content"
+  },
+  {
+   "fieldname": "instructor_tab",
+   "fieldtype": "Tab Break",
+   "label": "Instructor"
+  },
+  {
+   "fieldname": "instructor",
+   "fieldtype": "Link",
+   "label": "Instructor",
+   "options": "Web Instructor"
+  },
+  {
+   "fieldname": "mult",
+   "fieldtype": "Table MultiSelect",
+   "label": "Mult",
+   "options": "Tags Multi"
+  },
+  {
+   "fetch_from": "instructor.short_name",
+   "fieldname": "short_name",
+   "fieldtype": "Data",
+   "label": "Short Name"
+  },
+  {
+   "fetch_from": "instructor.full_name",
+   "fieldname": "full_name",
+   "fieldtype": "Data",
+   "label": "Full Name"
+  },
+  {
+   "fieldname": "column_break_26",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fetch_from": "instructor.bio",
+   "fieldname": "bio",
+   "fieldtype": "Text",
+   "label": "Bio"
+  },
+  {
+   "fetch_from": "instructor.avatar",
+   "fieldname": "avatar",
+   "fieldtype": "Attach Image",
+   "label": "Avatar"
+  },
+  {
+   "fetch_from": "instructor.specialty",
+   "fieldname": "speciality",
+   "fieldtype": "Data",
+   "label": "Speciality",
+   "read_only": 1
+  }
+ ],
+ "has_web_view": 1,
+ "image_field": "cover",
+ "index_web_pages_for_search": 1,
+ "is_published_field": "is_published",
+ "links": [],
+ "make_attachments_public": 1,
+ "modified": "2022-10-04 11:28:20.851258",
+ "modified_by": "Administrator",
+ "module": "Rtcpro",
+ "name": "Web Course",
+ "name_case": "UPPER CASE",
+ "naming_rule": "By \"Naming Series\" field",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "route": "web-course",
+ "search_fields": "title",
+ "show_name_in_global_search": 1,
+ "show_title_field_in_link": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "title",
+ "track_changes": 1,
+ "website_search_field": "title"
+}

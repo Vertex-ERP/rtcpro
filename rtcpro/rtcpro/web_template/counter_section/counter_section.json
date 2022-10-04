@@ -1,0 +1,54 @@
+{
+ "__unsaved": 1,
+ "creation": "2022-10-03 10:03:39.654279",
+ "docstatus": 0,
+ "doctype": "Web Template",
+ "fields": [
+  {
+   "fieldname": "title",
+   "fieldtype": "Data",
+   "label": "Title",
+   "reqd": 1
+  },
+  {
+   "fieldname": "subtitle",
+   "fieldtype": "Data",
+   "label": "Subtitle",
+   "reqd": 0
+  },
+  {
+   "__unsaved": 1,
+   "fieldname": "cover",
+   "fieldtype": "Attach Image",
+   "label": "Cover",
+   "reqd": 0
+  },
+  {
+   "fieldname": "counters",
+   "fieldtype": "Table Break",
+   "label": "Counters",
+   "reqd": 1
+  },
+  {
+   "fieldname": "counter_name",
+   "fieldtype": "Data",
+   "label": "Counter Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "counter_number",
+   "fieldtype": "Int",
+   "label": "Counter Number",
+   "reqd": 1
+  }
+ ],
+ "idx": 0,
+ "modified": "2022-10-03 10:09:18.567633",
+ "modified_by": "Administrator",
+ "module": "Rtcpro",
+ "name": "Counter Section",
+ "owner": "Administrator",
+ "standard": 1,
+ "template": "",
+ "type": "Section"
+}

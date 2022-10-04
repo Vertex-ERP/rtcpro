@@ -1,0 +1,23 @@
+
+
+<!-- COUNTUP================================================== -->
+<section class="py-8 py-md-13 jarallax text-center" data-jarallax data-speed=".8"
+    style="background-image: url({{cover}})">
+    <div class="container py-md-5">
+        <h2 class="text-white">{{_(title)}}</h2>
+        <p class="font-size-lg text-white mb-8 text-capitalize">
+            {{_(subtitle)}}</p>
+        <div class="row w-xl-80 mx-xl-auto text-center">
+            {% for counter in counters %}
+
+            <div class="col-md-3 mb-6 mb-md-0">
+                <div class="h1 text-turbo"><span data-toggle="countup" data-from="0" data-to="{{counter.counter_number}}" data-aos
+                        data-aos-id="countup:in">{{counter.counter_number}}</span>+</div>
+                <p class="font-size-lg text-white fw-medium mb-0">{{_(counter.counter_name)}}</p>
+            </div>
+            {% endfor %}
+
+
+        </div>
+    </div>
+</section>

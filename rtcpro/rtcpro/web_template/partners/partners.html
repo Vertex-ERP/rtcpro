@@ -1,0 +1,19 @@
+<!-- BRAND
+    ================================================== -->
+
+<div class="py-5 border-bottom bg-white">
+    <div class="container">
+        <h1 class="text-center my-4 display-3 text-turbo">{{_(title)}}</h1>
+        <div class="row row-cols-3 row-cols-md-6 text-center mx-auto">
+
+            {% for partner in partners %}
+            <div class="col-md mb-4 mb-md-0">
+                <div class="mw-100p mx-auto">
+                    <!-- Image -->
+                    <img src="{{partner.logo}}" alt="">
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>

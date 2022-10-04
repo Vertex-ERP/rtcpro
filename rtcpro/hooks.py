@@ -15,8 +15,42 @@ app_license = "MIT"
 # app_include_js = "/assets/rtcpro/js/rtcpro.js"
 
 # include js, css files in header of web template
-# web_include_css = "/assets/rtcpro/css/rtcpro.css"
-# web_include_js = "/assets/rtcpro/js/rtcpro.js"
+web_include_css = [
+    # "/assets/rtcpro/css/fontawesome.css",
+    "/assets/rtcpro/libs/@fancyapps/fancybox/dist/jquery.fancybox.min.css",
+    "/assets/rtcpro/libs/aos/dist/aos.css",
+    "/assets/rtcpro/libs/choices.js/public/assets/styles/choices.min.css",
+    "/assets/rtcpro/libs/flickity-fade/flickity-fade.css",
+    "/assets/rtcpro/libs/flickity/dist/flickity.min.css",
+    "/assets/rtcpro/libs/highlightjs/styles/vs2015.css",
+    "/assets/rtcpro/libs/jarallax/dist/jarallax.css",
+    "/assets/rtcpro/libs/quill/dist/quill.core.css",
+    "/assets/rtcpro/css/custom.css",
+    "/assets/rtcpro/css/theme.min.css",
+]
+
+web_include_js = [
+    # "/assets/rtcpro/libs/jquery/dist/jquery.min.js", #couse error in webform
+    "/assets/rtcpro/libs/bootstrap/dist/js/bootstrap.bundle.min.js",
+    "/assets/rtcpro/libs/@fancyapps/fancybox/dist/jquery.fancybox.min.js",
+    "/assets/rtcpro/libs/aos/dist/aos.js",
+    "/assets/rtcpro/libs/choices.js/public/assets/scripts/choices.min.js",
+    "/assets/rtcpro/libs/countup.js/dist/countUp.min.js",
+    "/assets/rtcpro/libs/dropzone/dist/min/dropzone.min.js",
+    "/assets/rtcpro/libs/flickity/dist/flickity.pkgd.min.js",
+    "/assets/rtcpro/libs/flickity-fade/flickity-fade.js",
+    "/assets/rtcpro/libs/highlightjs/highlight.pack.min.js",
+    "/assets/rtcpro/libs/imagesloaded/imagesloaded.pkgd.min.js",
+    "/assets/rtcpro/libs/isotope-layout/dist/isotope.pkgd.min.js",
+    "/assets/rtcpro/libs/jarallax/dist/jarallax.min.js",
+    "/assets/rtcpro/libs/jarallax/dist/jarallax-video.min.js",
+    "/assets/rtcpro/libs/jarallax/dist/jarallax-element.min.js",
+    "/assets/rtcpro/libs/parallax-js/dist/parallax.min.js",
+    "/assets/rtcpro/libs/quill/dist/quill.min.js",
+    "/assets/rtcpro/libs/smooth-scroll/dist/smooth-scroll.min.js",
+    "/assets/rtcpro/libs/typed.js/lib/typed.min.js",
+    "/assets/rtcpro/js/theme.min.js",
+]
 
 # include custom scss in every website theme (without file extension ".scss")
 # website_theme_scss = "rtcpro/public/scss/website"

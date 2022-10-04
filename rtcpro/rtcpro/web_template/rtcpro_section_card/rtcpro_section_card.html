@@ -1,0 +1,21 @@
+<section class="py-5 pt-md-11 pb-md-12 text-center">
+    <div class="container">
+        <div class="mb-8">
+            <h2 class="mb-1">{{_(title)}}</h2>
+            <p class="font-size-lg mb-0 text-capitalize">{{_(subtitle)}}
+            </p>
+        </div>
+        <div class="row text-capitalize">
+            {% for card in cards %}
+            <div class="col-md-4 mb-5">
+                <div class="card border shadow lift pb-8 rounded">
+                    <img class="rounded-top" src="{{card.img}}" alt="">
+
+                    <h5 class="pt-6">{{_(card.title)}}</h5>
+                    <p class="px-2 mb-0 mx-4">{{_(card.content)}}</p>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
