@@ -40,7 +40,8 @@
    "fieldtype": "Data",
    "in_list_view": 1,
    "label": "Full Name",
-   "reqd": 1
+   "reqd": 1,
+   "translatable": 1
   },
   {
    "fieldname": "user",
@@ -92,8 +93,7 @@
    "link_fieldname": "instructor"
   }
  ],
- "max_attachments": 1,
- "modified": "2022-10-03 15:26:24.604757",
+ "modified": "2022-10-05 10:22:18.126983",
  "modified_by": "Administrator",
  "module": "Rtcpro",
  "name": "Web Instructor",

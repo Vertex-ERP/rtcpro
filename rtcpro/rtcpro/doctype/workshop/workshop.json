@@ -17,7 +17,8 @@
   "to_time",
   "description",
   "route",
-  "is_published"
+  "is_published",
+  "cover"
  ],
  "fields": [
   {
@@ -78,13 +79,20 @@
    "label": "Series",
    "options": "RTC-EVT-.YYYY.-",
    "reqd": 1
+  },
+  {
+   "fieldname": "cover",
+   "fieldtype": "Attach Image",
+   "label": "Cover"
   }
  ],
  "has_web_view": 1,
+ "image_field": "cover",
  "index_web_pages_for_search": 1,
  "is_published_field": "is_published",
  "links": [],
- "modified": "2022-10-03 15:59:52.096137",
+ "make_attachments_public": 1,
+ "modified": "2022-10-05 10:46:21.831844",
  "modified_by": "Administrator",
  "module": "Rtcpro",
  "name": "Workshop",

@@ -20,22 +20,22 @@
             </div>
         </div>
         <!-- Card -->
-        {% set workshops = frappe.db.get_list("Workshop",filters={'date': ['>', frappe.utils.today()]}, fields=['title', 'date', 'address', 'from_time', 'to_time'], ignore_permissions=True, page_length=2) %}
+        {% set workshops = frappe.db.get_list("Workshop",filters={'date': ['>', frappe.utils.today()]}, fields=['title', 'date', 'address', 'from_time', 'to_time', 'cover'], ignore_permissions=True, page_length=2) %}
         {% for workshop in workshops %}
         <div class="card border shadow p-2 lift mb-5">
             <div class="row gx-0 align-items-center">
                 <!-- Image -->
-                <a href="http://139.177.189.127/event/public-event/1" class="col-auto d-block mw-md-130p"
+                <a href="/{{workshop.route}}" class="col-auto d-block mw-md-130p"
                     style="max-width: 120px;">
                     <img class="img-fluid rounded shadow-light-lg h-100 h-md-auto o-f-c"
-                        src="http://139.177.189.127/storage/events/HH54qPBTLsjlQb5Sl1OmPfgP3cxffBFR0cJgthAf.jpg"
+                        src="{{workshop.cover}}"
                         alt="...">
                 </a>
 
                 <!-- Body -->
                 <div class="col">
                     <div class="card-body py-0 px-md-5 px-3">
-                        <a href="http://139.177.189.127/event/public-event/1" class="d-block mb-2">
+                        <a href="/{{workshop.route}}" class="d-block mb-2">
                             <h5 class="mb-1 line-clamp-2 text-capitalize">{{workshop.title}}</h5>
                             
                         </a>
@@ -83,7 +83,7 @@
                     </div>
                 </div>
 
-                <a href="http://139.177.189.127/event/public-event/1"
+                <a href="/{{workshop.route}}"
                     class="col-auto rounded-lg d-none d-md-flex w-130p align-self-stretch place-center bg-shark">
                     <div class="w-100 text-center">
                         <h3 class="text-white mb-0 fw-semi-bold font-size-xxl">
