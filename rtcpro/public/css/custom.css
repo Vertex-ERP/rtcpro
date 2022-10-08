@@ -1,34 +1,24 @@
-.bg-white-90 {
-    background-color: rgba(255, 255, 255, 0.9);
-}
-
 @import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
 
-* {
+*{
     font-family: 'Cairo', sans-serif !important;
 }
 
-.nav-link {
-    font-size: 1rem !important;
+.nav-link{
+    font-size:1rem !important;
 }
 
 .website-list .result {
-    margin-top: 2rem;
+  margin-top: 2rem;
 }
-
 .result {
-    border-bottom: 1px solid var(--border-color);
+  border-bottom: 1px solid var(--border-color);
 }
 
-.split-section .split-section-content {
-    padding: 0 30px !important;
+.split-section .split-section-content{
+    padding:0 30px !important;
 }
 
-.navbar {
-    max-height: 75px !important;
-}
-
-.nav-avatar {
-    padding-top: unset;
-    padding-bottom: unset;
+.navbar{
+    max-height:75px !important;
 }

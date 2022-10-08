@@ -93,7 +93,7 @@
    "link_fieldname": "instructor"
   }
  ],
- "modified": "2022-10-05 10:22:18.126983",
+ "modified": "2022-10-08 10:12:00.515562",
  "modified_by": "Administrator",
  "module": "Rtcpro",
  "name": "Web Instructor",
@@ -113,6 +113,15 @@
    "set_user_permissions": 1,
    "share": 1,
    "write": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Student",
+   "share": 1
   }
  ],
  "route": "instructors",
