@@ -219,3 +219,8 @@ web_include_js = [
 # auth_hooks = [
 #	"rtcpro.auth.validate"
 # ]
+
+fixtures = [
+    # export all records from the Category table
+    "Program"
+]
