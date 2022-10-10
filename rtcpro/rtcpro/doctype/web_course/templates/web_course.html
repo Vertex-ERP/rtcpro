@@ -361,8 +361,11 @@
                         </div>
                     </div>
                 </div>
-
+                {% set reviews = frappe.get_list('Rating', filters={'course': name}, fields=['rate', 'review_content']) %}
                 <ul class="list-unstyled pt-2">
+                    {% for review in reviews %}
+                        
+                    
                     <li class="media d-flex">
                         <div class="avatar avatar-xxl me-3 me-md-6 flex-shrink-0">
                             <img src="assets/img/avatars/avatar-1.jpg" alt="..." class="avatar-img rounded-circle">
@@ -370,41 +373,18 @@
                         <div class="media-body flex-grow-1">
                             <div class="d-md-flex align-items-center mb-5">
                                 <div class="me-auto mb-4 mb-md-0">
-                                    <h5 class="mb-0">Oscar Cafeo</h5>
+                                    <h5 class="mb-0">{{review.created_by}}</h5>
                                     <p class="font-size-sm font-italic">Beautiful courses</p>
                                 </div>
                                 <div class="star-rating">
                                     <div class="rating" style="width:100%;"></div>
                                 </div>
                             </div>
-                            <p class="mb-6 line-height-md">This course was well organized and covered a lot more
-                                details than any other Figma courses. I really enjoy it. One suggestion is that it
-                                can be much better if we could complete the prototype together. Since we created 24
-                                frames, I really want to test it on Figma mirror to see all the connections. Could
-                                you please let me take a look at the complete prototype?</p>
+                            <p class="mb-6 line-height-md">{{review.review_content}}</p>
                         </div>
                     </li>
-                    <li class="media d-flex">
-                        <div class="avatar avatar-xxl me-3 me-md-6 flex-shrink-0">
-                            <img src="assets/img/avatars/avatar-2.jpg" alt="..." class="avatar-img rounded-circle">
-                        </div>
-                        <div class="media-body flex-grow-1">
-                            <div class="d-md-flex align-items-center mb-5">
-                                <div class="me-auto mb-4 mb-md-0">
-                                    <h5 class="mb-0">Alex Morgan</h5>
-                                    <p class="font-size-sm font-italic">Beautiful courses</p>
-                                </div>
-                                <div class="star-rating">
-                                    <div class="rating" style="width:100%;"></div>
-                                </div>
-                            </div>
-                            <p class="mb-6 line-height-md">This course was well organized and covered a lot more
-                                details than any other Figma courses. I really enjoy it. One suggestion is that it
-                                can be much better if we could complete the prototype together. Since we created 24
-                                frames, I really want to test it on Figma mirror to see all the connections. Could
-                                you please let me take a look at the complete prototype?</p>
-                        </div>
-                    </li>
+                    {% endfor %}
+
                 </ul>
             </div>
         </div>
