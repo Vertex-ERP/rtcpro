@@ -29,6 +29,7 @@
   "cover",
   "tab_break_19",
   "content",
+  "topics",
   "mult",
   "instructor_tab",
   "instructor",
@@ -317,6 +318,12 @@
    "fieldname": "plan_price_33",
    "fieldtype": "Currency",
    "label": "Plan price Three"
+  },
+  {
+   "fieldname": "topics",
+   "fieldtype": "Table",
+   "label": "Topics",
+   "options": "Course Topic"
   }
  ],
  "has_web_view": 1,
@@ -325,7 +332,7 @@
  "is_published_field": "is_published",
  "links": [],
  "make_attachments_public": 1,
- "modified": "2022-10-10 10:33:27.607277",
+ "modified": "2022-10-10 14:43:22.499619",
  "modified_by": "Administrator",
  "module": "Rtcpro",
  "name": "Web Course",
