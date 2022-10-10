@@ -3,7 +3,6 @@
  "allow_events_in_timeline": 1,
  "allow_guest_to_view": 1,
  "allow_import": 1,
- "allow_rename": 1,
  "autoname": "naming_series:",
  "creation": "2022-10-02 11:13:08.048363",
  "doctype": "DocType",
@@ -45,15 +44,21 @@
   "disadvantages",
   "section_break_34",
   "requirements",
-  "rate"
+  "rate",
+  "pricing_plans_tab",
+  "plan_1",
+  "plan_price_11",
+  "plan_feature_1",
+  "column_break_42",
+  "plan_2",
+  "plan_price_22",
+  "plan_feature_2",
+  "column_break_46",
+  "plan_3",
+  "plan_price_33",
+  "plan_feature_3"
  ],
  "fields": [
-  {
-   "fieldname": "naming_series",
-   "fieldtype": "Select",
-   "label": "Naming Series",
-   "options": "ED-CO-.YYYY.-"
-  },
   {
    "fieldname": "title",
    "fieldtype": "Data",
@@ -244,6 +249,74 @@
    "fieldtype": "Rating",
    "label": "Rate",
    "options": "3"
+  },
+  {
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "label": "Series",
+   "options": "SE-DD-.YYYY.-",
+   "reqd": 1
+  },
+  {
+   "fieldname": "pricing_plans_tab",
+   "fieldtype": "Tab Break",
+   "label": "Pricing Plans"
+  },
+  {
+   "fieldname": "plan_1",
+   "fieldtype": "Data",
+   "label": "Plan 1"
+  },
+  {
+   "fieldname": "plan_2",
+   "fieldtype": "Data",
+   "label": "Plan 2"
+  },
+  {
+   "fieldname": "plan_3",
+   "fieldtype": "Data",
+   "label": "Plan 3"
+  },
+  {
+   "fieldname": "plan_feature_1",
+   "fieldtype": "Table",
+   "label": "plan feature 1",
+   "options": "Pricing Plan Features"
+  },
+  {
+   "fieldname": "plan_feature_2",
+   "fieldtype": "Table",
+   "label": "plan feature 2",
+   "options": "Pricing Plan Features"
+  },
+  {
+   "fieldname": "plan_feature_3",
+   "fieldtype": "Table",
+   "label": "plan feature 3",
+   "options": "Pricing Plan Features"
+  },
+  {
+   "fieldname": "column_break_42",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_46",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "plan_price_11",
+   "fieldtype": "Currency",
+   "label": "Plan price One"
+  },
+  {
+   "fieldname": "plan_price_22",
+   "fieldtype": "Currency",
+   "label": "Plan price Two"
+  },
+  {
+   "fieldname": "plan_price_33",
+   "fieldtype": "Currency",
+   "label": "Plan price Three"
   }
  ],
  "has_web_view": 1,
@@ -252,10 +325,11 @@
  "is_published_field": "is_published",
  "links": [],
  "make_attachments_public": 1,
- "modified": "2022-10-08 10:12:24.810865",
+ "modified": "2022-10-10 10:33:27.607277",
  "modified_by": "Administrator",
  "module": "Rtcpro",
  "name": "Web Course",
+ "name_case": "Title Case",
  "naming_rule": "By \"Naming Series\" field",
  "owner": "Administrator",
  "permissions": [
@@ -290,5 +364,6 @@
  "states": [],
  "title_field": "title",
  "track_changes": 1,
+ "translated_doctype": 1,
  "website_search_field": "title"
 }

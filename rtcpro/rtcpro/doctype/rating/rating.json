@@ -7,6 +7,7 @@
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
+  "course",
   "rate",
   "review_title",
   "review_content"
@@ -15,6 +16,8 @@
   {
    "fieldname": "rate",
    "fieldtype": "Rating",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "Rate"
   },
   {
@@ -26,11 +29,20 @@
    "fieldname": "review_content",
    "fieldtype": "Text",
    "label": "Review Content"
+  },
+  {
+   "fieldname": "course",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Course",
+   "options": "Web Course",
+   "reqd": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2022-10-05 13:12:37.126794",
+ "modified": "2022-10-08 11:25:24.817729",
  "modified_by": "Administrator",
  "module": "Rtcpro",
  "name": "Rating",
@@ -48,6 +60,16 @@
    "role": "System Manager",
    "share": 1,
    "write": 1
+  },
+  {
+   "create": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Student",
+   "share": 1
   }
  ],
  "sort_field": "modified",
