@@ -1,0 +1,68 @@
+[
+ {
+  "allow_self_enroll": 1,
+  "courses": [
+   {
+    "course": "Master Course of Art Gallery Management",
+    "course_name": "Master Course of Art Gallery Management",
+    "parent": "CS",
+    "parentfield": "courses",
+    "parenttype": "Program",
+    "required": 1
+   }
+  ],
+  "department": "Customer Service",
+  "description": "Do you want to become a programmer? Do you want to learn how to create games, automate your browser, visualize data, and much more?",
+  "docstatus": 0,
+  "doctype": "Program",
+  "hero_image": null,
+  "intro_video": "https://youtu.be/2i2khp_npdE?list=RD2i2khp_npdE",
+  "is_featured": 1,
+  "is_published": 0,
+  "modified": "2022-10-10 12:41:56.821646",
+  "name": "CS",
+  "program_abbreviation": "CCNA",
+  "program_name": "CS"
+ },
+ {
+  "allow_self_enroll": 0,
+  "courses": [
+   {
+    "course": "Master Course of Art Gallery Management",
+    "course_name": "Master Course of Art Gallery Management",
+    "parent": "Main Program",
+    "parentfield": "courses",
+    "parenttype": "Program",
+    "required": 0
+   },
+   {
+    "course": "C++",
+    "course_name": "C++",
+    "parent": "Main Program",
+    "parentfield": "courses",
+    "parenttype": "Program",
+    "required": 1
+   },
+   {
+    "course": "Python",
+    "course_name": "Python",
+    "parent": "Main Program",
+    "parentfield": "courses",
+    "parenttype": "Program",
+    "required": 1
+   }
+  ],
+  "department": null,
+  "description": null,
+  "docstatus": 0,
+  "doctype": "Program",
+  "hero_image": null,
+  "intro_video": null,
+  "is_featured": 1,
+  "is_published": 1,
+  "modified": "2022-10-10 12:45:50.725437",
+  "name": "Main Program",
+  "program_abbreviation": "RTC-MN",
+  "program_name": "Main Program"
+ }
+]
