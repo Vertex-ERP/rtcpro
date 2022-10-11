@@ -5,7 +5,7 @@
                 <h2 class="mb-1">{{_(title)}}</h2>
             </div>
             <div class="col-md-auto">
-                <a href="./event-list.html" class="d-flex align-items-center fw-medium">
+                <a href="{{ frappe.get_url() }}/workshops" class="d-flex align-items-center fw-medium">
                     {{_('Browse All')}}
                     <div class="ms-2 d-flex">
                         <!-- Icon -->
@@ -31,7 +31,6 @@
                         src="{{workshop.cover}}"
                         alt="...">
                 </a>
-
                 <!-- Body -->
                 <div class="col">
                     <div class="card-body py-0 px-md-5 px-3">
@@ -94,6 +93,5 @@
             </div>
         </div>
     {% endfor %}
-
     </div>
 </section>
