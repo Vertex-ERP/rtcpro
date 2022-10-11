@@ -14,7 +14,7 @@
                 {% endif %}
             </div>
             <div class="col-xl-auto">
-                <a href="http://139.177.189.127/course/public-course" class="d-flex align-items-center fw-medium">
+                <a href="{{ frappe.get_url() }}/web-course" class="d-flex align-items-center fw-medium">
                     {{_('Browse All')}}
                     <div class="ms-2 d-flex">
                         <!-- Icon -->
@@ -111,7 +111,7 @@
                                         </svg>
 
                                     </div>
-                                    <div class="font-size-sm">{{course.lectures}} lessons
+                                    <div class="font-size-sm">{{course.lectures}} {{_('lessons')}}
                                     </div>
                                 </div>
                             </li>

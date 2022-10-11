@@ -431,7 +431,7 @@
                             </svg>
 
                         </div>
-                        <h6 class="mb-0 ms-3 me-auto">Duration</h6>
+                        <h6 class="mb-0 ms-3 me-auto">{{_('Duration')}}</h6>
                         <span>{{ frappe.format(duration, {'fieldtype': 'Duration'}) }}</span>
                     </li>
                     <li class="d-flex align-items-center py-3">
@@ -444,7 +444,7 @@
                             </svg>
 
                         </div>
-                        <h6 class="mb-0 ms-3 me-auto">Lectures</h6>
+                        <h6 class="mb-0 ms-3 me-auto">{{_('Lectures')}}</h6>
                         <span>{{lectures}}</span>
                     </li>
                     <li class="d-flex align-items-center py-3">
@@ -458,7 +458,7 @@
                             </svg>
 
                         </div>
-                        <h6 class="mb-0 ms-3 me-auto">Enrolled</h6>
+                        <h6 class="mb-0 ms-3 me-auto">{{_('Enrolled')}}</h6>
                         <span>{{frappe.db.count('Course Enrollment')}} students</span>
                     </li>
                     <li class="d-flex align-items-center py-3">
@@ -477,7 +477,7 @@
                             </svg>
 
                         </div>
-                        <h6 class="mb-0 ms-3 me-auto">Skill level</h6>
+                        <h6 class="mb-0 ms-3 me-auto">{{_('Skill level')}}</h6>
                         <span>{{skill_level}}</span>
                     </li>
                     <li class="d-flex align-items-center py-3">
@@ -508,7 +508,7 @@
                             </svg>
 
                         </div>
-                        <h6 class="mb-0 ms-3 me-auto">Deadline</h6>
+                        <h6 class="mb-0 ms-3 me-auto">{{_('Deadline')}}</h6>
                         <span>{{deadline}}</span>
                     </li>
                     <li class="d-flex align-items-center py-3">
@@ -523,7 +523,7 @@
                                     fill="currentColor"></path>
                             </svg>
                         </div>
-                        <h6 class="mb-0 ms-3 me-auto">Certificate</h6>
+                        <h6 class="mb-0 ms-3 me-auto">{{_('Certificate')}}</h6>
                         <span>Yes</span>
                     </li>
                     <li class="d-flex align-items-center py-4">
