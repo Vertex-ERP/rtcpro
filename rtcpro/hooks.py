@@ -16,7 +16,7 @@ app_license = "MIT"
 
 # include js, css files in header of web template
 web_include_css = [
-    # "/assets/rtcpro/css/fontawesome.css",
+    "/assets/rtcpro/css/fontawesome.css",
     "/assets/rtcpro/libs/@fancyapps/fancybox/dist/jquery.fancybox.min.css",
     "/assets/rtcpro/libs/aos/dist/aos.css",
     "/assets/rtcpro/libs/choices.js/public/assets/styles/choices.min.css",
@@ -222,5 +222,7 @@ web_include_js = [
 
 fixtures = [
     # export all records from the Category table
-    "Program"
+    "Program",
+    "Web Page",
+    "Website Theme",
 ]
