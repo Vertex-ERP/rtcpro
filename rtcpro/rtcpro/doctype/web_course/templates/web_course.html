@@ -261,7 +261,7 @@
                                 </svg>
 
                             </div>
-                            29 courses
+                            {{frappe.db.count('Web Course', {'is_published': true, 'instructor':instructor})}} {{_('courses')}}
                         </div>
                     </div>
                 </div>

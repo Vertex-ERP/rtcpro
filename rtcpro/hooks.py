@@ -225,4 +225,5 @@ fixtures = [
     "Program",
     "Web Page",
     "Website Theme",
+    "Website Settings",
 ]
