@@ -20,7 +20,7 @@
             </div>
         </div>
         <!-- Card -->
-        {% set workshops = frappe.db.get_list("Workshop",filters={'date': ['>', frappe.utils.today()]}, fields=['title', 'date', 'address', 'from_time', 'to_time', 'cover'], ignore_permissions=True, page_length=2) %}
+        {% set workshops = frappe.db.get_list("Workshop",filters={'date': ['>', frappe.utils.today()]}, fields=['title', 'date', 'address', 'from_time', 'to_time', 'cover', 'route'], ignore_permissions=True, page_length=2) %}
         {% for workshop in workshops %}
         <div class="card border shadow p-2 lift mb-5">
             <div class="row gx-0 align-items-center">
