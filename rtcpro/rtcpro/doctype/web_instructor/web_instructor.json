@@ -4,7 +4,6 @@
  "allow_import": 1,
  "autoname": "field:short_name",
  "creation": "2022-10-03 12:35:35.894614",
- "description": "User ID of a Blogger",
  "doctype": "DocType",
  "document_type": "Setup",
  "engine": "InnoDB",
@@ -52,17 +51,20 @@
   {
    "fieldname": "bio",
    "fieldtype": "Small Text",
-   "label": "Bio"
+   "label": "Bio",
+   "reqd": 1
   },
   {
    "fieldname": "avatar",
    "fieldtype": "Attach Image",
-   "label": "Avatar"
+   "label": "Avatar",
+   "reqd": 1
   },
   {
    "fieldname": "specialty",
    "fieldtype": "Data",
-   "label": "Specialty"
+   "label": "Specialty",
+   "reqd": 1
   },
   {
    "fieldname": "route",
@@ -93,7 +95,7 @@
    "link_fieldname": "instructor"
   }
  ],
- "modified": "2022-10-08 10:12:00.515562",
+ "modified": "2022-10-22 13:15:48.851587",
  "modified_by": "Administrator",
  "module": "Rtcpro",
  "name": "Web Instructor",

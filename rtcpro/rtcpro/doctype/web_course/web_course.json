@@ -75,17 +75,20 @@
    "fieldname": "category",
    "fieldtype": "Link",
    "label": "Category",
-   "options": "Course Category"
+   "options": "Course Category",
+   "reqd": 1
   },
   {
    "fieldname": "cover",
    "fieldtype": "Attach Image",
-   "label": "Cover"
+   "label": "Cover",
+   "reqd": 1
   },
   {
    "fieldname": "price",
    "fieldtype": "Currency",
-   "label": "Price"
+   "label": "Price",
+   "reqd": 1
   },
   {
    "fieldname": "discount",
@@ -95,13 +98,15 @@
   {
    "fieldname": "lectures",
    "fieldtype": "Int",
-   "label": "Lectures"
+   "label": "Lectures",
+   "reqd": 1
   },
   {
    "fieldname": "duration",
    "fieldtype": "Duration",
    "hide_seconds": 1,
-   "label": "Duration"
+   "label": "Duration",
+   "reqd": 1
   },
   {
    "fieldname": "deadline",
@@ -119,7 +124,8 @@
   {
    "fieldname": "content",
    "fieldtype": "Text Editor",
-   "label": "Content"
+   "label": "Content",
+   "reqd": 1
   },
   {
    "fieldname": "route",
@@ -167,19 +173,22 @@
    "fieldname": "instructor",
    "fieldtype": "Link",
    "label": "Instructor",
-   "options": "Web Instructor"
+   "options": "Web Instructor",
+   "reqd": 1
   },
   {
    "fetch_from": "instructor.short_name",
    "fieldname": "short_name",
    "fieldtype": "Data",
-   "label": "Short Name"
+   "label": "Short Name",
+   "reqd": 1
   },
   {
    "fetch_from": "instructor.full_name",
    "fieldname": "full_name",
    "fieldtype": "Data",
-   "label": "Full Name"
+   "label": "Full Name",
+   "reqd": 1
   },
   {
    "fieldname": "column_break_26",
@@ -189,7 +198,8 @@
    "fetch_from": "instructor.bio",
    "fieldname": "bio",
    "fieldtype": "Text",
-   "label": "Bio"
+   "label": "Bio",
+   "reqd": 1
   },
   {
    "fetch_from": "instructor.avatar",
@@ -202,7 +212,8 @@
    "fieldname": "speciality",
    "fieldtype": "Data",
    "label": "Speciality",
-   "read_only": 1
+   "read_only": 1,
+   "reqd": 1
   },
   {
    "fieldname": "more_tab",
@@ -259,35 +270,41 @@
   {
    "fieldname": "plan_1",
    "fieldtype": "Data",
-   "label": "Plan 1"
+   "label": "Plan 1",
+   "reqd": 1
   },
   {
    "fieldname": "plan_2",
    "fieldtype": "Data",
-   "label": "Plan 2"
+   "label": "Plan 2",
+   "reqd": 1
   },
   {
    "fieldname": "plan_3",
    "fieldtype": "Data",
-   "label": "Plan 3"
+   "label": "Plan 3",
+   "reqd": 1
   },
   {
    "fieldname": "plan_feature_1",
    "fieldtype": "Table",
    "label": "plan feature 1",
-   "options": "Pricing Plan Features"
+   "options": "Pricing Plan Features",
+   "reqd": 1
   },
   {
    "fieldname": "plan_feature_2",
    "fieldtype": "Table",
    "label": "plan feature 2",
-   "options": "Pricing Plan Features"
+   "options": "Pricing Plan Features",
+   "reqd": 1
   },
   {
    "fieldname": "plan_feature_3",
    "fieldtype": "Table",
    "label": "plan feature 3",
-   "options": "Pricing Plan Features"
+   "options": "Pricing Plan Features",
+   "reqd": 1
   },
   {
    "fieldname": "column_break_42",
@@ -300,23 +317,27 @@
   {
    "fieldname": "plan_price_11",
    "fieldtype": "Currency",
-   "label": "Plan price One"
+   "label": "Plan price One",
+   "reqd": 1
   },
   {
    "fieldname": "plan_price_22",
    "fieldtype": "Currency",
-   "label": "Plan price Two"
+   "label": "Plan price Two",
+   "reqd": 1
   },
   {
    "fieldname": "plan_price_33",
    "fieldtype": "Currency",
-   "label": "Plan price Three"
+   "label": "Plan price Three",
+   "reqd": 1
   },
   {
    "fieldname": "topics",
    "fieldtype": "Table",
    "label": "Topics",
-   "options": "Course Topic"
+   "options": "Course Topic",
+   "reqd": 1
   }
  ],
  "has_web_view": 1,
@@ -325,7 +346,7 @@
  "is_published_field": "is_published",
  "links": [],
  "make_attachments_public": 1,
- "modified": "2022-10-18 15:16:42.640421",
+ "modified": "2022-10-22 13:11:44.588695",
  "modified_by": "Administrator",
  "module": "Rtcpro",
  "name": "Web Course",
