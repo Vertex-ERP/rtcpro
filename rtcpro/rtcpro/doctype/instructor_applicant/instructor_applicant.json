@@ -1,5 +1,6 @@
 {
  "actions": [],
+ "allow_import": 1,
  "allow_rename": 1,
  "autoname": "INS-APP-.YYYY.-.#####",
  "creation": "2022-10-11 14:58:17.498420",
@@ -195,7 +196,7 @@
  "icon": "fa fa-user",
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2022-10-11 15:12:20.772717",
+ "modified": "2022-10-24 09:04:39.451618",
  "modified_by": "Administrator",
  "module": "Rtcpro",
  "name": "Instructor Applicant",

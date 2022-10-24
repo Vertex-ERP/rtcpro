@@ -1,5 +1,6 @@
 {
  "actions": [],
+ "allow_import": 1,
  "allow_rename": 1,
  "autoname": "field:category_name",
  "creation": "2022-10-02 11:33:17.203939",
@@ -21,7 +22,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2022-10-02 14:40:40.280228",
+ "modified": "2022-10-24 09:04:41.345284",
  "modified_by": "Administrator",
  "module": "Rtcpro",
  "name": "Course Category",

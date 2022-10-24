@@ -1,5 +1,6 @@
 {
  "actions": [],
+ "allow_import": 1,
  "allow_rename": 1,
  "autoname": "hash",
  "creation": "2022-10-05 13:12:37.126794",
@@ -42,7 +43,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2022-10-08 11:25:24.817729",
+ "modified": "2022-10-24 09:04:40.702346",
  "modified_by": "Administrator",
  "module": "Rtcpro",
  "name": "Rating",

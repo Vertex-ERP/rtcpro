@@ -1,5 +1,6 @@
 {
  "actions": [],
+ "allow_import": 1,
  "allow_rename": 1,
  "creation": "2022-10-09 15:28:42.231397",
  "doctype": "DocType",
@@ -30,7 +31,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2022-10-09 15:29:09.123113",
+ "modified": "2022-10-24 09:04:39.920330",
  "modified_by": "Administrator",
  "module": "Rtcpro",
  "name": "Pricing Plan",

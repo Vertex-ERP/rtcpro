@@ -1,6 +1,7 @@
 {
  "actions": [],
  "allow_guest_to_view": 1,
+ "allow_import": 1,
  "allow_rename": 1,
  "autoname": "naming_series:",
  "creation": "2022-10-01 11:42:06.112773",
@@ -140,7 +141,7 @@
  "is_published_field": "is_published",
  "links": [],
  "make_attachments_public": 1,
- "modified": "2022-10-22 13:08:40.901005",
+ "modified": "2022-10-24 09:04:38.941588",
  "modified_by": "Administrator",
  "module": "Rtcpro",
  "name": "Workshop",
