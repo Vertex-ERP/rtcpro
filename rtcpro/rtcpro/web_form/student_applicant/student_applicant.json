@@ -9,8 +9,8 @@
  "amount": 200.0,
  "amount_based_on_field": 0,
  "apply_document_permissions": 0,
- "banner_image": "/files/students-walking-on-campus-website-banner.png",
- "button_label": "Send Here _l_",
+ "banner_image": "",
+ "button_label": "Send Here",
  "creation": "2022-10-10 11:53:49.939806",
  "currency": "USD",
  "doc_type": "Student Applicant",
@@ -21,7 +21,7 @@
  "list_columns": [],
  "login_required": 0,
  "max_attachment_size": 0,
- "modified": "2022-10-10 14:18:56.743576",
+ "modified": "2022-11-07 10:40:26.103291",
  "modified_by": "Administrator",
  "module": "Rtcpro",
  "name": "student-applicant",
@@ -58,6 +58,18 @@
    "max_value": 0,
    "read_only": 0,
    "reqd": 0,
+   "show_in_filter": 0
+  },
+  {
+   "allow_read_on_all_link_options": 0,
+   "fieldname": "student_mobile_number",
+   "fieldtype": "Data",
+   "hidden": 0,
+   "label": "Student Mobile Number",
+   "max_length": 0,
+   "max_value": 0,
+   "read_only": 0,
+   "reqd": 1,
    "show_in_filter": 0
   },
   {
